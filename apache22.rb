@@ -16,7 +16,7 @@ class Apache22 < Formula
       "--disable-dependency-tracking",
       "--with-mpm=prefork",
       "--with-apxs=/usr/local/bin/apxs",
-      "--with-apr=/usr/local/bin/apr-1-config",
+      "--with-apr=/usr/local/Cellar/apr/1.4.6/bin/apr-1-config",
       "--with-apr-util=/usr/local/bin/apr-1-config",
       "--enable-mods-shared=all",
       "--enable-proxy",
