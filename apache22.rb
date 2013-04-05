@@ -17,7 +17,7 @@ class Apache22 < Formula
       "--with-mpm=prefork",
       "--with-apxs=/usr/local/bin/apxs",
       "--with-apr=/usr/local/Cellar/apr/1.4.6/bin/apr-1-config",
-      "--with-apr-util=/usr/local/bin/apr-1-config",
+      "--with-apr-util=/usr/local/Cellar/apr-util/1.5.1/bin/apu-1-config",
       "--enable-mods-shared=all",
       "--enable-proxy",
       "--enable-ssl",
